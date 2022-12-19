@@ -1,19 +1,133 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
-</head>
-
-<body>
-  <script src="js/scripts.js"></script>
-  <p>This is my cv!</p>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="section-photo" id="profile">
+          <img
+            class="profile-photo"
+            src="./assets/img/profile-photo.JPG"
+            alt="Andrey Lermontov's profile photo"
+          >
+          <h1 class="profile-name">Andrey Lermontov</h1>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contact Information</h2>
+          <p class="section-paragraph">
+            e-mail:
+            <a href="mailto:lermontovav@gmail.com">lermontovav@gmail.com</a>
+          </p>
+          <p class="section-paragraph">
+            phone:
+            <a href="tel:+7(911)9357711">+7 (911) 935-77-11</a>
+          </p>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Brief information about myself</h2>
+          <p class="section-paragraph">
+            My goal is to become a Front-End Web Developer.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-paragraph">Learning HTML, CSS, JavaScript.</p>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code Example</h2>
+          <p class="section-paragraph">
+            <code>`<span>console</span>.<span>log</span>(<span>'Hello, World!'</span>);`</code>
+          </p>
+        </section>
+        <section class="section" id="experience">
+          <h2 class="section-title">Experience</h2>
+          <p class="section-paragraph">
+            My first project is to prepare CV on GitHub:
+            <a href="https://github.com/lermontovav/rsschool-cv/edit/gh-pages/cv.md" target="_blank">
+              "Markdown & Git #1"</a>
+          </p>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p class="section-paragraph">
+            I study at RS School on the course JS / FRONT-END. STAGE 0.
+          </p>
+        </section>
+        <section class="section" id="english">
+          <h2 class="section-title">English Level</h2>
+          <p class="section-paragraph">
+            Proficiency in spoken English on general topics.
+          </p>
+          <p class="section-paragraph">
+            Confident understanding of native speaker speech.
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a
+              href="https://github.com/lermontovav"
+              class="footer-link"
+              target="_blank"
+            >
+              <img
+                width="50"
+                src="./assets/svg/github-mark.svg"
+                alt="GitHub Logo"
+              >
+            </a>
+          </li>
+          <li class="footer-item">
+            <p>&copy; 2022 by Andrey Lermontov</p>
+          </li>
+          <li class="footer-item">
+            <a href="https://rs.school/js/" class="footer-link" target="_blank">
+              <img
+                width="100"
+                src="./assets/svg/rs_school_js.svg"
+                alt="RS School JS Logo"
+              >
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
